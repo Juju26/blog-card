@@ -6,11 +6,11 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
   min-height: 100vh;
-
+  overflow-y: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
-  background-image: linear-gradient(#F9FAFB,#D2D6DB);
+  background-image: linear-gradient(#f9fafb, #d2d6db);
 }
 
 * {
@@ -31,55 +31,50 @@ body {
   font-weight: bold;
 }
 
-.card-container{
+.card-container {
   margin-top: 120px;
-
-  
 }
 
-.card-flex{
+.card-flex {
   display: flex;
   justify-content: center;
-  
-
 }
 
-.card{
+.card {
   background-color: #ffffff;
   width: 340px;
-  margin-left: auto ;
+  margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
 }
-.coverImage{
+.coverImage {
   object-fit: cover;
 }
 
-img{
+img {
   border-radius: 8px 8px 0px 0px;
 }
 
-.catagory{
-  background-color: #F0FDF4;
+.catagory {
+  background-color: #f0fdf4;
   opacity: 100%;
-  border-color: #BBF7D0;
+  border-color: #bbf7d0;
   border-width: 1px;
-  color: #15803D;
+  color: #15803d;
   margin-top: 2px;
   border-radius: 9999px;
   width: 67px;
-  height: 24px;
   font-size: 14px;
   text-align: center;
-  font-family: 'Noto Sans';
+  font-family: "Noto Sans";
 }
 
-.cardDetails{
+.cardDetails {
   padding: 24px 16px;
 }
 
-.title{
-  font-family: 'Noto Sans';
+.title {
+  font-family: "Noto Sans";
   font-size: 18px;
   font-weight: 800;
   margin-top: 8px;
@@ -90,9 +85,9 @@ img{
   line-clamp: 1;
 }
 
-.description{
+.description {
   font-family: "Noto Sans";
-  font-size:  16px;
+  font-size: 16px;
   color: #525252;
   margin-top: 12px;
   margin-bottom: 24px;
@@ -102,26 +97,25 @@ img{
   -webkit-line-clamp: 2;
   line-clamp: 2;
 }
-.CTA{
+.CTA {
   display: flex;
-  color: #4338CA;
+  color: #4338ca;
   margin-top: 24px;
   gap: 6px;
 }
 
-.CTA :focus{
+.CTA :focus {
   text-decoration: none;
   border-color: #ffffff;
   border-radius: 3px;
 }
 
-.cta-button{
+.cta-button {
   font-weight: bold;
   text-decoration: none;
-  
 }
-.arrow{
-  width: 20px ;
+.arrow {
+  width: 20px;
   height: 24px;
   padding-top: 2px;
   padding-bottom: 2px;
